@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Authors>Vlad Dyshakov (@tdesu)</Authors>
+        <PackageProjectUrl>https://github.com/techiedesu/CliWrap.Fsharp</PackageProjectUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>CliWrap.Fsharp</Title>
+        <Description>Primitive bindings for F# of CliWrap library.</Description>
+        <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/techiedesu/CliWrap.Fsharp/</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>F#, CliWrap</PackageTags>
+        <PackageId>Tdesu.CliWrap.Fsharp</PackageId>
+        <AssemblyOriginatorKeyFile>Vlad Dyshakov.snk</AssemblyOriginatorKeyFile>
+        <PublicSign>true</PublicSign>
+        <RootNamespace>Tdesu.CliWrap.Fsharp</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Library.fs"/>
+        <None Include="..\README.md" Pack="true" PackagePath="">
+            <Link>README.md</Link>
+        </None>
+        <None Include="..\UNLICENSE" Pack="true" PackagePath="">
+            <Link>UNLICENSE</Link>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CliWrap" Version="3.6.4" />
+    </ItemGroup>
+
+</Project>

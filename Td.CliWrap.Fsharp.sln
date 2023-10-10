@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Td.CliWrap.Fsharp", "Td.CliWrap.Fsharp\Td.CliWrap.Fsharp.fsproj", "{477B19AC-52D9-43A6-B2A4-96EA6EF8E96A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tdesu.CliWrap.Fsharp", "Tdesu.CliWrap.Fsharp\Tdesu.CliWrap.Fsharp.fsproj", "{477B19AC-52D9-43A6-B2A4-96EA6EF8E96A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

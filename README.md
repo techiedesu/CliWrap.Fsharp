@@ -1,6 +1,12 @@
-# Td.CliWrap.Fsharp
+# Tdesu.CliWrap.Fsharp
 
 Primitive bindings for F# of [CliWrap](https://github.com/Tyrrrz/CliWrap) library.
+
+[![Version](https://img.shields.io/nuget/v/Tdesu.CliWrap.Fsharp.svg)](https://nuget.org/packages/Tdesu.CliWrap.Fsharp)
+
+```bash
+dotnet add package Tdesu.CliWrap.Fsharp
+```
 
 ## Sample
 

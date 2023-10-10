@@ -1,4 +1,4 @@
-﻿module Td.CliWrap.Fsharp
+﻿module Tdesu.CliWrap.Fsharp
 
 open System.IO
 open System.Threading
